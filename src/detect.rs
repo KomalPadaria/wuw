@@ -78,7 +78,6 @@ mod tests {
     const BITCOIN_P2SH_TEST_ADDR: &str = "3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy";
     const BITCOIN_BECH32_TEST_ADDR: &str = "bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq";
     const ETHEREUM_TEST_ADDR: &str = "0xb794f5ea0ba39494ce839613fffba74279579268";
-
     #[test]
     fn test_detect_address() {
         assert_eq!(
