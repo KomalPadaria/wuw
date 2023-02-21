@@ -68,7 +68,7 @@ fn eth_checksum_encode(address: &str) -> String {
     }
     ret
 }
-
+// comment
 #[cfg(test)]
 mod tests {
     use super::*;
