@@ -19,7 +19,6 @@ pub struct SupportedParams {
     size: Option<usize>,
 }
 
-//extra line
 pub async fn healthcheck(
     _req: HttpRequest,
     _params: web::Query<SupportedParams>,
